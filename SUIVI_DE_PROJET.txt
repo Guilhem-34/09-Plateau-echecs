@@ -1,0 +1,149 @@
+S06-01/02/2024
+
+Découverte du projet
+
+Bilel : 3h Recherche systèmes mécanique (voir DOC\echec.pdf)
+Guilhem : 3h Recherche capteurs à effet Hall
+Michaël : 3h Recherche électroaimant (voir DOC\remarques.pdf)
+
+En avance sur les prévisions.
+
+
+=====================================================================================================================================================================================================================================
+
+
+S06-07/02/2024
+
+Bilel : 2h dimensionnement composants (voir DOC\echec.pdf) + 2h mise en place git projet  
+Guilhem et Michaël : Démontage d'une ancienne table et récupération des composants utilisables pour inventaire.
+
+On prévoit de finir le montage du système mécanique pour le 28/02/2024.
+
+
+=====================================================================================================================================================================================================================================
+
+
+S06-14/02/2024
+
+1h discussion sur l'avancement du projet avec tuteur : bon travail dans l'ensemble des recherches mais il faut insister sur l'aspect du temps et de l'autogestion (prévoir emploi du temps prévisionel).
+
+Micha : 1h demontage de la table + 1h rédaction feuille de demande de composant pour test capteur (voir DOC\feuille_demande_composant_1.docx).
+Guilhem : 2h rédaction document mecanismes possibles de la table (voir DOC\Chess_Mechanism.docx). 
+Bilel : 2h rédaction document capteurs possibles de la table (voir DOC\CHESS_SENSORS.docx).
+
+Prise de conscience du temps restant nécessaire à la réalisation du Projet.
+
+
+=====================================================================================================================================================================================================================================
+
+
+S06-28/02/2024
+
+Bilel : 2h recherche capteurs FSR + 2h recherche tag NFC
+Guilhem et Michaël : 4h Début montage de la table en utilisant les éléments à disposition
+
+
+
+=====================================================================================================================================================================================================================================
+
+
+S06-06/03/2024
+
+Comme nous disposons de peu de temps restant, on décide de mettre en suspends la recherche de capteurs et de se focaliser sur la fabrication d'un premier prototype fonctionnel (sachant que l'on a quelques capteurs à effet Hall)
+
+Bilel : 4h Compréhension fonctionnement moteur pas à pas
+Guilhem et Michaël : 4h montage de la table + modélisation des pièces 3D nécessaires *Ajouter chemin d'accès*
+
+
+=====================================================================================================================================================================================================================================
+
+
+S06-13/03/2024
+
+Bilel : 4h Compréhension fonctionnement moteur pas à pas + implémentation du driver A4988
+Guilhem et Michaël : 4h montage de la table + modélisation des pièces 3D nécessaires *Ajouter chemin d'accès*
+
+
+=====================================================================================================================================================================================================================================
+
+
+S06-20/03/2024
+
+Bilel : 2h test moteur pas à pas + driver, 2h commencement rédaction librairie de fonction
+Guilhem et Michaël : 4h montage de la table + modélisation des pièces 3D nécessaires *Ajouter chemin d'accès*
+
+table presque finie, on aimerait pouvoir tester son fonctionnement d'ici la prochaine séance.
+
+=====================================================================================================================================================================================================================================
+
+S06-20/03/2024
+
+Bilel : 4h Utilisation des moteurs pas à pas sur arduino et début de réflexion sur le fait d'écrire le code sur STM32
+Guilhem et Michaël : 4h montage de la table et réimpression de certaines pièces
+
+=====================================================================================================================================================================================================================================
+
+S06-27/03/2024
+
+Bilel: 4h d'ecriture des fonctions sur cube IDE dans le but d'utiliser la STM32 pour driver les moteurs
+Michaël et Guilhem : 4h ~ Finalisation de la partie mécanique + test de la table à l'aide du code sur arduino (utilisation de bouton poussoir pour effectuer des mouvements simple d'un angle à un autre)
+
+=====================================================================================================================================================================================================================================
+
+S06-03/04/2024
+
+Bilel: 4h d'ecriture des fonctions sur cube IDE dans le but d'utiliser la STM32 pour driver les moteurs
+Michaël et Guilhem : 4h ~ Ajustement de certains défaults de la table dû à l'utilisation de matériau de récup et d'impression 3D peu solide.
+
+=====================================================================================================================================================================================================================================
+
+S06-10/04/2024
+
+Bilel: 4h ~ 1 er test du code permettant de driver les moteurs sur STM32
+Michaël et Guilhem : 4h ~ Test sur l'électroaimant en compagnie d'un professeur afin de comprendre son manque de puissance
+
+=====================================================================================================================================================================================================================================
+
+S06-17/04/2024
+
+Bilel : 4h ~ Finalisation du code fonctionnel sur STM32, premier test concluant
+Michaël et Guilhem : 4h ~ Ecriture et utilisation d'un code sur STM32 permettant de driver en position sun servomotor relié à un aimant afin de remplacer l'électroaimant
+
+=====================================================================================================================================================================================================================================
+
+S06-24/04/2024
+
+Bilel,Michaël et Guilhem : 4h ~ mise en place d'une démo permettant de déplacer une pièce le long d'un chemin prédéfini. Test concluant, seul bémol, les contraintes mécaniques nous font perdre des pas et donc de la précision. Notre nouveau prototype nous permettra de corriger les erreurs sur la version finale.
+
+=====================================================================================================================================================================================================================================
+
+S06-08/05/2024
+
+Bilel : 4h ~ Mise au propre du gitlab permettant d'avoir un suivi de projet pertinant + ajustement du code STM32 + découverte de nouveaux matériels qui pourrait grandement améliorer la mécanique de notre projet, réflexion sur un second prototypage.
+Michaël et Guilhem : 4h ~ Réception de la commande de nouveaux capteurs à effets haul + Prise en main et test de ces capteurs (test concluant) + début des recherches sur la fabrication potentiel d'un PCB pour les capteurs à effets haul et pour le montage globale.
+
+=====================================================================================================================================================================================================================================
+
+S06-15/05/2024
+
+Bilel : 4h ~ Réalisation plan de la nouvele structure en dimensionnant le nouveau matériel.
+Michaël et Guilhem : 4h ~ Réalisation PCB pour les drivers de moteurs pas à pas, le servomoteur et les boutons poussoir.
+
+
+=====================================================================================================================================================================================================================================
+
+S06-29/05/2024 au 07/06/2024
+
+Bilel,Michaël et Guilhem : Réalisation de la nouvelle structure + développement de fonctions pour les capteurs à effet hall + modélisation pièce 3d pour tendeur de courroie + réalisation PCB pour capteurs à effets Hall.
+
+=====================================================================================================================================================================================================================================
+
+Au cours de ce suivie de projet nous avons détaillé uniquement les heures de cours dédiées au projet, mais si nous devions estimer le nombre d'heures global passé en dehors de ces horaires, nous obtiendrions : 
+
+	Michaël et Guilhem : Conception de la partie mécanique du 1er protype (dimensionnement + bricolage + modélisation et impression)  + réalisation des PCB des drivers et des capteurs 			     à effet Hall : 
+			
+					~ 100 heures (au minimum 10h par semaine)
+
+	Bilel : Conception de la partie mécanique du 2ème prototype (dimensionnement + bricolage + modélisation et impression) +Ecriture des drivers et du code globale sur STM 32 + mise au 			     propre du Gitlab : 
+					
+					~ 100 heures (au minimum 10h par semaine)

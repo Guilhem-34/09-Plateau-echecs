@@ -1,0 +1,5 @@
+https://forum.arduino.cc/t/control-a-stepper-without-library/444937
+
+https://www.makerguides.com/a4988-stepper-motor-driver-arduino-tutorial/
+
+https://arduinokitproject.com/a4988-stepper-motor-driver-arduino-tutorial/#Controlling_Bipolar_Stepper_Motor_with_A4988_Driver_%E2%80%93_Code_Without_Library
